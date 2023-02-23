@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Dashboard</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230223190903">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="page">
+			<section class="dashboard">
+				<aside class="dashboard__sidebar sidebar">
+					<div class="sidebar__wrap">
+						<a href="#" class="sidebar__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture>
+						</a>
+						<span class="sidebar__version">v.0.1</span>
+					</div>
+					<nav class="sidebar__nav">
+						<ul class="sidebar__list">
+							<li class="sidebar__item">
+								<span class="icon-key"></span><a href="#" class="sidebar__link">Dashboard</a>
+							</li>
+							<li class="sidebar__item">
+								<span class="icon-box"></span><a href="#" class="sidebar__link">Product</a><span class="icon-item-arrow"></span>
+							</li>
+							<li class="sidebar__item 2">
+								<span class="icon-user"></span><a href="#" class="sidebar__link">Customers</a><span class="icon-item-arrow"></span>
+							</li>
+							<li class="sidebar__item">
+								<span class="icon-wallet"></span><a href="#" class="sidebar__link">Income</a><span class="icon-item-arrow"></span>
+							</li>
+							<li class="sidebar__item">
+								<span class="icon-discount"></span><a href="#" class="sidebar__link">Promote</a><span class="icon-item-arrow"></span>
+							</li>
+							<li class="sidebar__item">
+								<span class="icon-help"></span><a href="#" class="sidebar__link">Help</a><span class="icon-item-arrow"></span>
+							</li>
+						</ul>
+					</nav>
+					<div class="sidebar__manager">
+						<div class="sidebar__avatar">
+							<picture><source srcset="img/avatar.webp" type="image/webp"><img src="img/avatar.png" alt="avatar"></picture>
+						</div>
+						<div class="sidebar__info">
+							<span class="sidebar__avatar-name">Evano</span>
+							<span class="sidebar__avatar-position">Project Manager</span>
+						</div>
+					</div>
+				</aside>
+
+				<div class="dashboard__body">
+					<div class="dashboard__wrap">
+						<div class="dashboard__menu menu">
+							<button type="button" class="menu__burger"><span></span></button>
+						</div>
+						<h1 class="dashboard__title">Hello Evano 👋🏼,</h1>
+					</div>
+					<div class="dashboard__content content">
+						<div class="content__header header">
+							<div class="header__info">
+								<h2 class="header__title">All Customers</h2>
+								<span class="header__subtitle">Active Members</span>
+							</div>
+							<div class="header__search">
+								<button type="button" class="header__btn icon-search"></button>
+								<input type="text" placeholder="Search" class="header__input">
+							</div>
+						</div>
+						<div class="content__body">
+							<div class="content__wrap">
+								<table class="content__table table">
+									<thead class="table__head">
+										<tr class="table__row">
+											<th class="table__col">Customer Name</th>
+											<th class="table__col">Company</th>
+											<th class="table__col">Phone Number</th>
+											<th class="table__col">Email</th>
+											<th class="table__col">Country</th>
+											<th class="table__col">Status</th>
+										</tr>
+									</thead>
+									<tbody class="table__body">
+										<tr class="table__row">
+											<td class="table__col">Jane Cooper</td>
+											<td class="table__col"><a href="#">Microsoft</a></td>
+											<td class="table__col"><a href="tel:2255550118">(225) 555-0118</a></td>
+											<td class="table__col"><a href="mailto:">jane@microsoft.com</a></td>
+											<td class="table__col">United States</td>
+											<td class="table__col"><span class="table__status table__status--active">Active</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Floyd Miles</td>
+											<td class="table__col"><a href="#">Yahoo</a></td>
+											<td class="table__col"><a href="tel:2055550100">(205) 555-0100</a></td>
+											<td class="table__col"><a href="mailto:floyd@yahoo.com">floyd@yahoo.com</a></td>
+											<td class="table__col">Kiribati</td>
+											<td class="table__col"><span class="table__status table__status--inactive">Inactive</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Ronald Richards</td>
+											<td class="table__col"><a href="#">Adobe</a></td>
+											<td class="table__col"><a href="tel:3025550107">(302) 555-0107</a></td>
+											<td class="table__col"><a href="mailto:ronald@adobe.com">ronald@adobe.com</a></td>
+											<td class="table__col">Israel</td>
+											<td class="table__col"><span class="table__status table__status--inactive">Inactive</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Marvin McKinney</td>
+											<td class="table__col"><a href="#">Tesla</a></td>
+											<td class="table__col"><a href="tel:2525550126">(252) 555-0126</a></td>
+											<td class="table__col"><a href="mailto:marvin@tesla.com">marvin@tesla.com</a></td>
+											<td class="table__col">Iran</td>
+											<td class="table__col"><span class="table__status table__status--active">Active</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Jerome Bell</td>
+											<td class="table__col"><a href="#">Google</a></td>
+											<td class="table__col"><a href="tel:6295550129">(629) 555-0129</a></td>
+											<td class="table__col"><a href="mailto:jerome@google.com">jerome@google.com</a></td>
+											<td class="table__col">Réunion</td>
+											<td class="table__col"><span class="table__status table__status--active">Active</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Kathryn Murphy</td>
+											<td class="table__col"><a href="#">Microsoft</a></td>
+											<td class="table__col"><a href="tel:4065550120">(406) 555-0120</a></td>
+											<td class="table__col"><a href="mailto:kathryn@microsoft.com">kathryn@microsoft.com</a></td>
+											<td class="table__col">Curaçao</td>
+											<td class="table__col"><span class="table__status table__status--active">Active</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Jacob Jones</td>
+											<td class="table__col"><a href="#">Yahoo</a></td>
+											<td class="table__col"><a href="tel:2085550112">(208) 555-0112</a></td>
+											<td class="table__col"><a href="mailto:jacob@yahoo.com">jacob@yahoo.com</a></td>
+											<td class="table__col">Brazil</td>
+											<td class="table__col"><span class="table__status table__status--active">Active</span></td>
+										</tr>
+										<tr class="table__row">
+											<td class="table__col">Kristin Watson</td>
+											<td class="table__col"><a href="#">Facebook</a></td>
+											<td class="table__col"><a href="tel:7045550127">(704) 555-0127</a></td>
+											<td class="table__col"><a href="mailto:kristin@facebook.com">kristin@facebook.com</a></td>
+											<td class="table__col">Åland Islands</td>
+											<td class="table__col"><span class="table__status table__status--inactive">Inactive</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="content__footer footer">
+							<div class="footer__text">
+								<p>Showing data 1 to 8 of 256K entries</p>
+							</div>
+							<div class="footer__pagination">
+								<button class="footer__btn icon-arrow-left"></button>
+								<button class="footer__btn footer__btn--active">1</button>
+								<button class="footer__btn">2</button>
+								<button class="footer__btn">3</button>
+								<button class="footer__btn">4</button>
+								<span>...</span>
+								<button class="footer__btn">40</button>
+								<button class="footer__btn icon-arrow-right"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20230223190903"></script>
+</body>
+
+</html>
